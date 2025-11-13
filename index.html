@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>College Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!--TOP-HEADER STARTS TOP-HEADER STARTS-->
+    <div class="header">
+        <div class="container">
+            <b> NAME : </b>
+            <marquee> Polytechnic College Sanawad</marquee>
+        </div>
+    </div>
+    <div class="container">
+        <!--LOGO SECTION -->
+        <img src="logo.jpg" class="logo">
+        <!--MENU SECTION-->
+        <nav class="navbar" id="home">
+            <span class="hamburger-btn material-symbols-rounded">menu</span>
+            <ul class="links">
+                <span class="close-btn material-symbols-rounded">Close</span>
+                <a href="#home">Home</a>
+                <a href="#event"> Events</a>
+                <a href="#about-us"> About-Us</a>
+                <a href="#gallery"> Gallery</a>
+                <a href="#footer"> Contact-Us</a>
+                <button class="login-btn">LOG IN</button>
+            </ul>
+        </nav>
+        <div class="blur-bg-overlay"></div>
+        <div class="form-popup">
+            <span class="close-btn material-symbols-rounded">close</span>
+            <div class="form-box login">
+                <div class="form-details">
+                    <h2>Welcome Back</h2>
+                    <p>Please log in using your personal information to stay connected with us.</p>
+                </div>
+                <div class="form-content">
+                    <h2>LOGIN</h2>
+                    <form action="#">
+                        <div class="input-field">
+                            <input type="text" required>
+                            <label>Email</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" required>
+                            <label>Password</label>
+                        </div>
+                        <a href="#" class="forgot-pass-link">Forgot password?</a>
+                        <button type="submit">Log In</button>
+                    </form>
+                    <div class="bottom-link">
+                        Don't have an account?
+                        <a href="#" id="signup-link">Signup</a>
+                    </div>
+                </div>
+            </div>
+            <div class="form-box signup">
+                <div class="form-details">
+                    <h2>Create Account</h2>
+                    <p>To become a part of our community, please sign up using your personal information.</p>
+                </div>
+                <div class="form-content">
+                    <h2>SIGNUP</h2>
+                    <form action="#">
+                        <div class="input-field">
+                            <input type="text" required>
+                            <label>Enter your email</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" required>
+                            <label>Create password</label>
+                        </div>
+                        <div class="policy-text">
+                            <input type="checkbox" id="policy">
+                            <label for="policy">
+                                I agree the
+                                <a href="#" class="option">Terms & Conditions</a>
+                            </label>
+                        </div>
+                        <button type="submit">Sign Up</button>
+                    </form>
+                    <div class="bottom-link">
+                        Already have an account?
+                        <a href="#" id="login-link">Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!--SLIDER SECTION-->
+    <div class="slider">
+        <img src="slider.jfif">
+    </div>
+    <div class="main-section" style="background:#f0f3fa">
+        <div class="container">
+
+            <!--CAMPUS NEWS SECTION-->
+            <div class="event campus-news">
+                <h2 class="heading">Campus News</h2>
+                <div class="ev">
+                    <ul>
+                        <li>
+                            <h2>There are many variations.</h2>
+                            <h6>Dec.04.2024</h6>
+                            <p> Academic Calendar for III, V & VII Semesters of Engineering Diploma July - Dec 2024.
+                            </p>
+                        </li>
+                        <li>
+                            <h6>Feb.14.2024</h6>
+                            <p> Academic Calendar for II, IV, VI & VII Semesters of Engineering Diploma Feb-June 2024
+                            </p>
+                        </li>
+                        <li>
+                            <h6>Feb.24.2023</h6>
+                            <p> Academic Calendar for Second Semester CME - Feb 2023 to June 2023.</p>
+                        </li>
+                </div>
+            </div>
+            <!--Recent Events-->
+            <div class="event">
+                <h2 class="heading">Recent Event</h2>
+                <div class="fun">
+                    <marquee direction="Up" scrollamount="7" style="height:440px;">
+                        <ul>
+                            <li>
+                                <i>02-April-2024 :</i>Annual Function<img src="ev1.jpg" height="200px">
+                            </li>
+                            <li>
+                                <i>08-June-2024 :</i>Farewell<img src="c1.jpg" height="200px">
+                            </li>
+                        </ul>
+                    </marquee>
+                </div>
+            </div>
+            <!--CALENDER-->
+            <div class="event" id="event">
+                <h2 class="heading">College Calender</h2>
+                <div class="cal">
+                    <ul>
+                        <li>
+                            <span class="event-date">03 <br> Jul </span>End sem exams are starting on 3rd of July.
+                        </li>
+                        <li>
+                            <span class="event-date">15 <br> Jul </span>Result decleration date will be announced on
+                            15th of July.
+                        </li>
+                        <li>
+                            <span class="event-date">19 <br> Aug </span>Result wil be decleard on 19th of Augest.
+                        </li>
+                        <li>
+                            <span class="event-date">21 <br> Aug </span>Classes will be starting from 21st of Augest.
+                        </li>
+                        <li>
+                            <span class="event-date">1 <br> Sep </span>Fees will be submitted on the
+                            1st of september.
+                        </li>
+                        </li>
+
+                        <li>
+                            <span class="event-date">10 <br> Sep </span>Placement will be started on10th of
+                            september.(Note: For final year students)
+                        </li>
+                        </li>
+
+                        <li>
+                            <span class="event-date">25 <br> Sep </span>All Student has to maintain attendance 75% till
+                            25th of september.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--ABOUT US SECTION-->
+    <div class="main-section">
+        <div class="container about-us">
+            <div id="about-us">
+                <h4 class="subhead">Description Of College</h4>
+                <h2 class="heading">About My College</h2>
+                <p>Govt. Polytechnic College Sanwad is one of the premier technical institute of country with
+                    international repute. The institute is situated at a distance of 72 KMs from Indore on state
+                    highway
+                    towards Khandwa. The institute was established in 1965 with Central Govt. Open Door in Sanawad
+                    as
+                    Pt. Jawaharlal Nehru Polytechnic. The institute was under taken by Govt. of M.P. on 3rd July
+                    1989.
+                    Now it is known as Govt. Polytechnic College Sanawad.</p>
+                <a href="#">Read More</a>
+            </div>
+            <img src="College Image150623051142.jpeg" height="450px">
+        </div>
+    </div>
+    <div class="main-section award" style="background:#f0f3fa">
+        <div class="container">
+            <!--College INFO SECTION-->
+            <div class="event">
+                <h2 class="heading">Our Faculty</h2>
+                <div class="chairman">
+                    <ul>
+                        <li>
+                            <span class="campus-img">
+                                <img src="pr2.jpg">
+                            </span>
+                            <h2>Pr. Chandragupt Prakaulya</h2>
+                            <h4>Principal</h4>
+                            <h6>32 Years Of Exprerience</h6>
+                        </li>
+                        <li>
+                            <span class="campus-img">
+                                <img src="hod.jpg">
+                            </span>
+                            <h2>Mr. Mukesh Chouhan</h2>
+                            <h4>H.O.D </h4>
+                            <h5>13 Year Of Exprerience</h5>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--College AWARD SECTION-->
+            <div class="event">
+                <h2 class="heading">Our College Awards</h2>
+                <div>
+                    <img src="e1.jpg" height="150px">
+                    <img src="e2.jpg" height="150px">
+                    <img src="e3.jpg" height="150px">
+                </div>
+            </div>
+            <!--College CERTIFICATE SECTION-->
+            <div class="event">
+                <h2 class="heading">My College Certificate</h2>
+                <div>
+                    <img src="event.jpg" height="455">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Experience about college-->
+    <div class="main-section ">
+        <div class="container">
+            <h4 class="subhead">Experience About College</h4>
+            <h2 class="heading">Students Point Of View</h2>
+            <div class="Exprerience">
+                <div class="Exprerience-text">
+                    Hi, my self Mohit as a student in polytechnic college, i feel independent in college.
+                </div>
+                <div class="Exprerience-detail">
+                    <img src="ms.jpg" height="200px">
+                </div>
+                <div class="Exprerience-name">
+                    <h5>Mohit Sharma</h5>
+                </div>
+            </div>
+            <div class="Exprerience">
+                <div class="Exprerience-text">
+                    Hello, my self Kuldeep as a student in polytechnic college, i enjoy to learn new things.
+                </div>
+                <div class="Exprerience-detail">
+                    <img src="kul.jpg" height="200px">
+                </div>
+                <div class="Exprerience-name">
+                    <h5>Kuldeep Bhalakar</h5>
+                </div>
+            </div>
+            <div class="Exprerience">
+                <div class="Exprerience-text">
+                    Hi, my self Yasasvi as a student in polytechnic college, i have best experience.
+                </div>
+                <div class="Exprerience-detail">
+                    <img src="yashvi.jpg" height="200px">
+                </div>
+                <div class="Exprerience-name">
+                    <h5>Yasasvi verma</h5>
+                </div>
+            </div>
+            <div class="Exprerience">
+                <div class="Exprerience-text">
+                    Hello, Vikram here as a student in polytechnic college, i enjoy to play sports in college.
+                </div>
+                <div class="Exprerience-detail">
+                    <img src="vkr.jpg" height="200px">
+                </div>
+                <div class="Exprerience-name">
+                    <h5>Vikram Verma</h5>
+                </div>
+            </div>
+            <div class="Exprerience">
+                <div class="Exprerience-text">
+                    Hi, Vijay here as a student in  polytechnic college, i enjoy to learn coding in college.
+                </div>
+                <div class="Exprerience-detail">
+                    <img src="VJ.jpg" height="200px" width="150px">
+                </div>
+                <div class="Exprerience-name">
+                    <h5>Vijay Karole</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!--GALLERY SECTION -->
+        <div class="main-section gallery" style="background:#f0f3fa" id="gallery">
+            <div class="container ">
+                <h4 class="subhead">My Gallery</h4>
+                <h2 class="heading">Our College Gallery</h2>
+                <img src="c1.jpg">
+                <img src="g1.jpg">
+                <img src="g2.jpg">
+                <img src="g3.jpg">
+                <img src="g4.jpg">
+                <img src="g5.jpg">
+                <img src="g6.jpg">
+                <img src="g7.jpg">
+            </div>
+        </div>
+        <!--PLACEMENT SECTION -->
+        <div class="main-section" id="placement">
+            <div class="container">
+                <h4 class="subhead">Top Placement</h4>
+                <h2 class="heading">Our Partner Company</h2>
+                <marquee class="placement" direction="left" scrollamount="10">
+                    <img src="google.png">
+                    <img src="amazon.png">
+                    <img src="rec.jpg">
+                    <img src="job.jpg">
+                    <img src="const.jpg">
+                    <img src="pl.png">
+                    <img src="microsoft.png">
+
+                </marquee>
+            </div>
+        </div>
+
+        <!--FOOTER SECTION-->
+
+        <div class="footer" id="footer">
+            <div class="container">
+                <div class="footer-sect">
+                    <img class="footer-logo" src="logo.jpg">
+                </div>
+                <div class="footer-sect">
+                    <address> 53Q8+W63, Polotechnic Indore-Khandwa Road,<br> NH27, Highway
+                        street,
+                        Sanawad, MP, 451111 </address>
+                </div>
+                <div class="footer-sect">
+                    <img src="call.png" width="15px"> +91 - 9988776655
+                </div>
+                <div class="footer-sect">
+                    <img src="gmail.png" width="15px"> MohitSharma@gmail.com
+                </div>
+                <div class="footer-sect">
+                    <img src="wp.jpg" width="20px">
+                    <img src="insta.jpg" width="20px">
+                    <img src="fb.png" width="20px">
+                    <img src="x.png" width="20px">
+                </div>
+                <div class="footer-sect">
+                    <a href="#"> Home</a>
+                    <a href="#"> About us</a>
+                    <a href="#"> Event</a>
+                    <a href="#"> Gallery</a>
+                    <a href="#"> Contact Us</a>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>
